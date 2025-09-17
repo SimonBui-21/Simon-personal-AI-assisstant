@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Data (optional – only ignore if you don’t want your notes/docs in Git)
+# comment out "data/" if you want to keep version control of inputs
+data/
+
+# Vectorstore (indexes can be regenerated)
+vectorstore/
+
+# Local configs / secrets
+*.env
+secrets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
